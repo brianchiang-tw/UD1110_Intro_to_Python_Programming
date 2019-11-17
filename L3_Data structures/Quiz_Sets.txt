@@ -1,0 +1,41 @@
+Q1:
+What would the output of the following code be?
+
+a = [1, 2, 2, 3, 3, 3, 4, 4, 4, 4]
+b = set(a)
+print(len(a) - len(b))
+
+
+Answer:
+6
+
+
+Hint:
+len(a) = 10
+len(b) = 4
+
+
+===========================================================================
+Q:
+Consider the following code:
+
+a = [1, 2, 2, 3, 3, 3, 4, 4, 4, 4]
+b = set(a)
+b.add(5)
+b.pop()
+After executing this code, will the number 5 be a part of the set b?
+
+Answer:
+
+Maybe.
+
+Hint:
+That's right. 
+
+When you pop an element from a set a random element is removed 
+(remember that sets, unlike lists, are unordered so there is no "last element"). 
+
+The number 5 may or may not be removed.
+
+
+

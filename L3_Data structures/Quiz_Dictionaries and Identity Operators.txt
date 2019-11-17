@@ -1,0 +1,88 @@
+Q1:
+Define a dictionary named population that contains this data:
+
+Keys		Values
+Shanghai	17.8
+Istanbul	13.3
+Karachi		13.0
+Mumbai		12.5
+
+# Define a Dictionary, population,
+# that provides information
+# on the world's largest cities.
+# The key is the name of a city
+# (a string), and the associated
+# value is its population in
+# millions of people.
+
+#   Key     |   Value
+# Shanghai  |   17.8
+# Istanbul  |   13.3
+# Karachi   |   13.0
+# Mumbai    |   12.5
+
+
+Code:
+
+population = {}
+
+population["Shanghai"] = 17.8
+population["Istanbul"] = 13.3
+population["Karachu"] = 13.0
+population["Mumbai"] = 12.5
+
+
+print( population )
+
+
+
+Output:
+
+{'Istanbul': 13.3, 'Mumbai': 12.5, 'Karachu': 13.0, 'Shanghai': 17.8}
+
+
+
+===========================================================================
+Q2:
+Which of these could be used as the key for a dictionary? (Choose all that apply.) 
+Hint: Dictionary keys must be immutable, that is, they must be of a type that is not modifiable.
+
+Answer:
+str, int and float
+
+
+
+===========================================================================
+Q3:
+What happens if we look up a value that isn't in the dictionary? 
+Create a test dictionary and use the square brackets to look up a value that you haven't defined. What happens?
+
+Answer:
+
+A KeyError occurs
+
+
+
+===========================================================================
+Q4:
+
+What will the output of the following code be? (Treat the commas in the multiple choice answers as newlines.)
+
+a = [1, 2, 3]
+b = a
+c = [1, 2, 3]
+
+print(a == b)
+print(a is b)
+print(a == c)
+print(a is c)
+
+
+
+Answer:
+True
+True
+True
+False 
+( a and c are of different object instances, although they have the same value with passing equality check)
+

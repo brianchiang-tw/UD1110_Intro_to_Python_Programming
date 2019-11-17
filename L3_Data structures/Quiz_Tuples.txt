@@ -1,0 +1,48 @@
+Q1:
+Match the following qualities to their data structure.
+
+Answer:
+
+Tuples are ordered as well as immutable.
+
+Lists are ordered as well as mutable.
+
+
+
+===========================================================================
+Q2:
+
+What would the output of the following code be? (Treat the comma in the multiple choice answers as newlines.)
+
+tuple_a = 1, 2
+tuple_b = (1, 2)
+
+print(tuple_a == tuple_b)
+print(tuple_a[1])
+
+
+
+Code:
+
+tuple_a = 1, 2
+tuple_b = (1, 2)
+
+print(tuple_a == tuple_b)
+print(tuple_a[1])
+print( tuple_a )
+print( tuple_b )
+
+
+
+Output:
+
+True
+2
+(1, 2)
+(1, 2)
+
+
+
+Answer:
+
+True, 2

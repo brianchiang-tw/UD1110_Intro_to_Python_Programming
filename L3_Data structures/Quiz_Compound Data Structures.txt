@@ -1,0 +1,76 @@
+Q1:
+Adding values to nested dictionaries
+
+Try your hand at working with nested dictionaries. Add another entry, 'is_noble_gas,' to each dictionary in the elements dictionary. After inserting the new entries you should be able to perform these lookups:
+
+
+
+Solution:
+
+elements = {'hydrogen': {'number': 1, 'weight': 1.00794, 'symbol': 'H'},
+            'helium': {'number': 2, 'weight': 4.002602, 'symbol': 'He'}}
+
+# todo: Add an 'is_noble_gas' entry to the hydrogen and helium dictionaries
+# hint: helium is a noble gas, hydrogen isn't
+
+elements['hydrogen']['is_noble_gas'] = False
+elements['helium']['is_noble_gas'] = True
+
+print( elements['hydrogen'] )
+print( elements['hydrogen']['is_noble_gas'])
+
+
+print( elements['helium'])
+print( elements['helium']['is_noble_gas'] )
+
+
+
+Output:
+
+{'number': 1, 'symbol': 'H', 'weight': 1.00794, 'is_noble_gas': False}
+False
+{'number': 2, 'symbol': 'He', 'weight': 4.002602, 'is_noble_gas': True}
+True
+
+
+
+===========================================================================
+Q2:
+Check the attributes of a collection for which using a Python list would be appropriate.
+
+Answer:
+
+Items are always indexed with numbers starting at 0
+
+Sortable
+
+Add items with .append()
+
+
+
+===========================================================================
+Q3:
+Check the attributes of a collection for which using a Python set would be appropriate.
+
+Answer:
+
+Order in which items appear can be inconsistent
+
+Mutable
+
+Add items with .add()
+
+
+
+===========================================================================
+Q4:
+Check the attributes of a collection for which using a Python dictinoary would be appropriate.
+
+Answer:
+
+Each item contains two parts
+
+Order in which items appear can be inconsistent
+
+Can be nested
+
