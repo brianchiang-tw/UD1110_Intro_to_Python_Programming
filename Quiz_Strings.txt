@@ -1,0 +1,68 @@
+Q1:
+Fix the Quote
+
+Code:
+
+# TODO: Fix this string!
+ford_quote = 'Whether you think you can, or you think you can\'t--you\'re right.'
+
+print( ford_quote)
+
+
+
+Q2:
+We’ve already seen that the type of objects will affect how operators work on them. What will be the output of this code?
+
+coconut_count = "34"
+mango_count = "15"
+tropical_fruit_count = coconut_count + mango_count
+print(tropical_fruit_count)
+
+Ans:
+3415 (and tropical_fruit_count is a string)
+
+
+
+Q3:
+Write a Server Log Message
+
+Code:
+
+username = "Kinari"
+timestamp = "04:50"
+url = "http://petshop.com/pets/mammals/cats"
+
+# TODO: print a log message using the variables above.
+# The message should have the same format as this one:
+# "Yogesh accessed the site http://petshop.com/pets/reptiles/pythons at 16:20."
+
+print( username + " accessed the site " + url + " at " + timestamp + "." )
+
+
+
+Q4:
+Length of name
+
+Code
+
+given_name = "William"
+middle_names = "Bradley"
+family_name = "Pitt"
+
+name_length = len(given_name)+len(middle_names) + len(family_name) + 2#todo: calculate how long this name is
+
+# Now we check to make sure that the name fits within the driving license character limit
+# Nothing you need to do here
+driving_license_character_limit = 28
+print(name_length <= driving_license_character_limit)
+
+
+
+Q5:
+We've just used the len function to find the length of strings. What does the len function return when we give it the integer 835 instead of a string?
+
+Ans:
+Error
+
+Hint:
+TypeError: object of type 'int' has no len()

@@ -1,0 +1,51 @@
+Q1:
+String methods coding practice
+
+Code:
+
+verse = "If you can keep your head when all about you\n  Are losing theirs and blaming it on you,\nIf you can trust yourself when all men doubt you,\n  But make allowance for their doubting too;\nIf you can wait and not be tired by waiting,\n  Or being lied about, don’t deal in lies,\nOr being hated, don’t give way to hating,\n  And yet don’t look too good, nor talk too wise:"
+print(verse)
+
+print("length", len(verse))
+
+print("index of first occurrence of 'and':", verse.find("and") )
+
+print("index of last occurrence of 'you':", verse.find("you") )
+
+print("count of occurrence of 'you':", verse.count("you") )
+
+# Use the appropriate functions and methods to answer the questions above
+# Bonus: practice using .format() to output your answers in descriptive messages!
+
+
+
+Output:
+
+If you can keep your head when all about you
+  Are losing theirs and blaming it on you,
+If you can trust yourself when all men doubt you,
+  But make allowance for their doubting too;
+If you can wait and not be tired by waiting,
+  Or being lied about, don’t deal in lies,
+Or being hated, don’t give way to hating,
+  And yet don’t look too good, nor talk too wise:
+length 362
+index of first occurrence of 'and': 65
+index of last occurrence of 'you': 186
+count of occurrence of 'you': 8
+
+
+Q2:
+Answer matching
+
+What is the length of the string variable verse ?
+362
+
+What is the index of the first occurrence of the word 'and' in verse?
+65
+
+What is the index of the last occurrence of the word 'you' in verse?
+186
+
+What is the count of occurrences of the word 'you' in the verse?
+8
