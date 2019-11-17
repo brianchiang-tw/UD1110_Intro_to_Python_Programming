@@ -1,0 +1,61 @@
+Q1:
+Which of the following statements about data types and data structures are true? Select all that apply.
+
+Answer:
+
+Select option #1, #3, and #5
+
+#1 Data structures are containers that can include different data types
+
+#3 A list is an example of a data structure
+
+#5 All data structure are data types.
+
+
+
+===========================================================================
+Q2:
+Which of the following are properties of lists? Select all that apply.
+
+Answer:
+
+Select option #1 and option #3.
+
+#1 Mutable
+
+#3 Ordered
+
+
+
+===========================================================================
+Q3:
+Choose the correct syntax to index each of the following elements from a list, arr.
+
+Answer:
+First element of the list
+arr[0]
+
+Fourth element of a list
+arr[3]
+
+Last element of the list
+arr[-1]
+
+Second to last element of the list
+arr[-2]
+
+
+
+===========================================================================
+Q4:
+Choose the correct syntax to slice each of the following elements from the list: arr = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
+
+Answer:
+arr[ 2:6 ]
+=['c', 'd', 'e', 'f']
+
+arr[ :3 ]
+=['a', 'b', 'c']
+
+arr[ 4: ]
+=['e', 'f', 'g']

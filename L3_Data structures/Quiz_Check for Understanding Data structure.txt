@@ -1,0 +1,101 @@
+Q1:
+Which of the following statements about tuples are true?
+Select all that apply.
+
+Answer:
+
+A typle is an ordered data structure.
+A tuple can be indexed and sliced like a list.
+
+
+
+===========================================================================
+Q2:
+Which of the following statements about sets are true?
+Select all that apply.
+
+Answer:
+
+A set is a mutable data structure.
+A set does not containt duplicate elements.
+
+
+
+===========================================================================
+Q3:
+Is the following statement true of false?
+A set is the only data structure defined with curly braces: {}
+
+Answer:
+
+False
+
+Hint:
+The difference is that a set is defined as a sequence of elements separated by commas:
+set_example = {element1, element2, element3}
+
+,while a dictionary is defined as a sequence of key, value pairs marked with colons, separated by commas:
+dict_example = {key1: value1, key2: value2, key3: value3}.
+ 
+If you define a variable with an empty set of curly braces like this: a = {}, Python will assign an empty dictionary to that variable. You can always use set() and dict() to define empty sets and dictionaries as well.
+
+
+
+===========================================================================
+Q4:
+Which of the following statements about dictionaries are true?
+Select all that apply.
+
+Answer:
+
+A dictionary is a mutable data structure.
+
+A dictionary can be indexed using keys.
+
+The keys of a dictionary are unique.
+
+
+
+===========================================================================
+Q5:
+Identify the Problem
+Run the code below - it should break. 
+Take a look at the error message and try to figure out what the issue is. 
+Then, answer the quiz question below the editor.
+
+# invalid dictionary - this should break
+room_numbers = {
+    ['Freddie', 'Jen']: 403,
+    ['Ned', 'Keith']: 391,
+    ['Kristin', 'Jazzmyne']: 411,
+    ['Eugene', 'Zach']: 395
+}
+
+
+Solution:
+
+# use immutable data structure such as tuple insteand of list as key of dictionary.
+room_numbers = {
+    ('Freddie', 'Jen'): 403,
+    ('Ned', 'Keith'): 391,
+    ('Kristin', 'Jazzmyne'): 411,
+    ('Eugene', 'Zach'): 395
+}
+
+print( room_numbers )
+
+
+
+Output:
+
+{('Ned', 'Keith'): 391, ('Kristin', 'Jazzmyne'): 411, ('Freddie', 'Jen'): 403, ('Eugene', 'Zach'): 395}
+
+
+
+===========================================================================
+Q6:
+What's wrog with the code above?
+
+Answer:
+
+The dictionary is using a mutable datatype for its keys.
